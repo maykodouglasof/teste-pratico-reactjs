@@ -1,0 +1,35 @@
+.post-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+.post {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+.post-container strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+}
+
+.post-container p + strong {
+  margin-top: 32px;
+}
+
+.post-container p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.comment {
+  background: #d3d3d3;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 40px;
+}
